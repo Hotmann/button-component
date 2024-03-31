@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  background-color: rgb(250, 251, 253, 1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  top: 0;
+  left: 0;
+  padding: 50px;
+  width: 237px;
+}
+
+.main {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #f7542e;
+}
+
+.span {
+  color: #090f31;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.links a {
+  text-decoration: none;
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9e9e9e;
+}
+
+a:active {
+  font-weight: 700;
+  color: #090f31;
+}
